@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <style>
+      *{
+        background-color: rgb(241, 242, 244);
+      }
+      
+      .head {
+        color: rgb(12, 124, 228);
+        font-size: 60px;
+        font-weight: bold;
+        position: relative;
+        top: 200px;
+        left: 200px;
+      }
+
+      .para {
+        font-size: xx-large;
+        position: relative;
+        top: 200px;
+        left: 200px;
+      }
+      .container-1{
+        width: 500px; 
+        
+      }
+      .container-2{
+        /* box-sizing: border-box; */
+        width: 400px;
+        height: 370px;
+        background-color: white;   
+        position: relative;
+        left: 750px; 
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 1);   
+      }
+      .container-2 input{
+        height: 30px;
+        width: 250px;
+        padding: 8px;
+        margin: 15px;
+        background-color: white;
+        position: relative;
+        left: 55px;
+        
+      }
+      .container-2 button{
+        position: relative;
+        left: 55px;
+        font-size:large;
+        color: white;
+        background-color: rgb(12, 124, 228);
+        padding: 10px;
+        border-radius: 5px;
+        width: 270px;
+        margin: 15px;
+        
+      }
+      .container-2 button:hover{
+        cursor: pointer;
+      }
+
+      .container-2 form{
+        background-color: white;
+      }
+      #button{
+        background-color: #42B72a;
+        width: 200px;
+        margin-left: 50px;
+        
+      }
+      #button:hover{
+        cursor:pointer
+      }
+      #line{
+        width: 250px;
+        margin-left: 80px;
+      }
+      a{
+        color: rgb(12, 124, 228);
+        position: relative;
+        left: 135px;
+        font-size: larger;
+        background-color: white;
+        text-decoration: none;
+      }
+      a #button{
+        background-color: #42B72a;
+        width: 200px;
+        margin-left: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-1">
+      <div class="head">facebook</div>
+      <div class="para">
+        Facebook helps you connect and <br />share with the people is your life
+      </div>
+    </div>
+
+    <div class="container-2">
+      <form action="">
+        <input type="email" name="mail" id="mail" placeholder="Email address or Phone Number"><br>
+        <input type="password" name="pass" id="pass" placeholder="Password"><br>
+        <button>Log in</button>
+      </form>
+      <a href="#">Forget Password</a>
+     <div id="line">
+      <hr>
+     </div>
+      
+      <button id="button">Create Account</button>
+    </div>
+  </body>
+</html>
